@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button{
+    background-color: darkcyan;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.1s linear;
+}
+
+button:focus{
+    outline: none;
+}
+/* aşagıdaki kod sayesinde buton efekt kazandı */
+button:active{
+    box-sizing: 0;
+    transform: translate(2px, 2px);
+} 
